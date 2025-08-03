@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FONT</title>
+    </head>
+    <body>
+        <h1>first heading</h1>
+        <h2 id="second-heading">second heading</h2>
+        <p id="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, minus. Aliquid amet magnam quasi consequuntur quos doloribus sapiente, libero illum et nisi error laudantium eos ipsum pariatur non molestias saepe."></p>
+    </body>
+    <script>
+        const firstH=document.createElement('h1');
+        const firstH2=document.getElementById("second-heading");
+        const secondH=document.getElementById(id);
+        firstH.id="first-heading";
+        firstH.className="para";
+        const textNode=document.createTextNode("Hello World, Welcome to JS world");
+        firstH.appendChild(textNode);
+        document.body.appendChild(firstH);
+        firstH.replaceWith(secondH);
+    </script>
+</html>
+
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>first heading</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus nam quos beatae veniam quas est sed. Earum, doloribus dolorem. Vero dolores quod quaerat! Quos, eius nemo ad voluptatem inventore ea.</p>
+    </body>
+    <script>
+        const firstH = document.createElement('h2');
+        firstH.id="second heading";
+        firstH.className="para";
+        
+        const textNode=document.createTextNode("Hello World, Welcome to JS world");
+        firstH.appendChild(textNode);
+        document.body.appendChild(firstH);
+        const secondH = document.getElementById('p');
+        const rep = secondH.replaceWith(firstH);
+    </script>
+</html> -->
